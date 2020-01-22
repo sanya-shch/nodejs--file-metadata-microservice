@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>File Metadata Microservice</title>
+</head>
+<body>
+    <form
+            method="POST"
+            action="/api/fileinfo"
+            target="_blank"
+            rel="noopener noreferrer"
+            enctype="multipart/form-data"
+    >
+        <input type="file" name="upfile" />
+        <div class="submit-area">
+            <input class="submit-button" type="submit" value="Upload File" />
+        </div>
+    </form>
+</body>
+</html>
